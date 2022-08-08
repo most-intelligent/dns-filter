@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2022-08-08T06:01:22.387Z
+! Last modified: 2022-08-08T07:01:22.387Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -47591,7 +47591,23 @@ charlestownwyllie.oaklawnnonantum.com^
 ||zhiyou.smzdm.com^
 ||tmfmazu.m.qq.com^
 ||xw.qq.com^
-
+||sentry.io^
+||audid-api.taobao.com^
+||stats.gc.apple.com^
+||www.googletagmanager.com^
+||analytics.95516.com^
+||ads.95516.com^
+||dualstack-logs.amap.com^
+||sec.umeng.com^
+||loggw-ex.alipay.com^
+||ifs.tanx.com^
+||apoll.m.taobao.com^
+||adashx.m.taobao.com^
+||abtest.alibaba.com^
+||h-adashx.ut.taobao.com^
+||acs.m.taobao.com^
+||log.mmstat.com^
+||mdap.alipay.com^
 ! spec>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 !
@@ -47789,8 +47805,6 @@ charlestownwyllie.oaklawnnonantum.com^
 @@||tlaol.com^|
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/378
 @@||admin.dable.io^|
-! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/358
-@@||log.mmstat.com^|
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/345
 ! Blocked by alimama.com alias
 @@||click.simba.taobao.com^|
